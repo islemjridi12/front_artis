@@ -73,44 +73,6 @@ export class SidebarService {
 
           ],
         },
-        {
-          menuValue: 'Layouts',
-          hasSubRoute: true,
-          showSubRoute: false,
-          icon2: 'layout-sidebar-right-collapse',
-          base: 'layouts',
-          subMenus: [
-            {
-              menuValue: 'Horizontal',
-              route: routes.Horizontal,
-            },
-            {
-              menuValue: 'Detached',
-              route: routes.Detached,
-            },
-
-            {
-              menuValue: 'Two Column',
-              route: routes.TwoColumn,
-            },
-            {
-              menuValue: 'Hovered',
-              route: routes.hovered,
-            },
-            {
-              menuValue: 'Boxed',
-              route: routes.Boxed,
-            },
-            {
-              menuValue: 'RTL',
-              route: routes.RTL,
-            },
-            {
-              menuValue: 'Dark',
-              route: routes.Dark,
-            },
-          ],
-        },
       ],
     },
     {
